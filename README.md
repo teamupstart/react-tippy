@@ -1,3 +1,21 @@
+## This is a fork of React Tippy
+
+To contribute to this fork:
+
+1. Make your changes and submit a PR. Be sure to increment the version in package.json
+1. Once the PR has been approved an merged, build the project with `yarn run build`
+1. Log into our jfrog registry:
+
+  ```
+  npm login --registry=https://upstart.jfrog.io/upstart/api/npm/local-npm/
+  ```
+
+  Your username and password (API Key) can be found at https://upstart.jfrog.io/upstart/webapp/#/profile
+
+1. Publish the new version with `npm publish --registry https://upstart.jfrog.io/upstart/api/npm/local-npm/`
+1. Update the version of `react-tippy` in `upstart_web`
+
+
 ## React Tippy
 
 A lightweight tooltip for React. Demo at [Demo page here...](https://tvkhoa.github.io/testlib)
